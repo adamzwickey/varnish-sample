@@ -1,0 +1,10 @@
+---
+applications:
+- name: varnish
+  memory: 256M 
+  instances: 1
+  host: varnish
+  domain: cloudfoundry.dyndns.org
+  path: .
+#  env:
+#    VARNISH_MEMORY_LIMIT: 128m
